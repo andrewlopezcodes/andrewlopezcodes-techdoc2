@@ -4,9 +4,11 @@ body{
 #logo{
   height: 50%;
   width: 50%;
+  float: none;
+  margin-left: 45px;
 }
 
-#young-jacksons{
+#javascript-photo{
 float:none;
   margin-left: 10%;
   margin-bottom: 10px;
@@ -16,26 +18,8 @@ float:none;
   height: 80%;
   min-height: 50%;
 }
-#unity-tour{
-  float:none;
-    margin-left: 10%;
-    margin-bottom: 10px;
-    padding:inherit;
-    width: 80%;
-    min-width: 50%
-    height: 80%;
-    min-height: 50%;
-}
-#chart{
-  float:none;
-    margin-left: 10%;
-    margin-bottom: 10px;
-    padding:inherit;
-    width: 80%;
-    min-width: 50%
-    height: 80%;
-    min-height: 50%;
-}
+
+
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 200px; /* Set the width of the sidebar */

@@ -74,12 +74,11 @@
               <header><h3>Hello World</h3></header>
               <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
 
-              <p><code>
-                function greetMe(yourName) {
-                alert("Hello " + yourName);
-              }
-              greetMe("World");
-            </code></p>
+              <p><code>function greetMe(yourName) {</code></p>
+            <p> <code>alert("Hello " + yourName);</code> </p>
+            <p> <code>}</code> </p>
+            <p> <code>greetMe("World");</code> </p>
+
             <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
 
             </section>
@@ -109,10 +108,16 @@
 
               <p>JavaScript before ECMAScript 2015 does not have block statement scope; rather, a variable declared within a block is local to the function (or global scope) that the block resides within. For example the following code will log 5, because the scope of x is the function (or global context) within which x is declared, not the block, which in this case is an if statement.</p>
 
-              <p> <code> if (true) {var x = 5;} console.log(x);  // 5 </code> </p>
+              <p> <code>if (true)</code></p>
+              <p> <code>{var x = 5;}</code></p>
+              <p> <code>console.log(x);</code></p>
+              <p> <code>// 5</code></p>
               <p>This behavior changes, when using the let declaration introduced in ECMAScript 2015.</p>
-              <p> <code>
-                if (true) {let y = 5;} console.log(y);  // ReferenceError: y is not defined</code> </p>
+              <p> <code>if (true)</code> </p>
+              <p> <code>{let y = 5;}</code> </p>
+              <p> <code>}</code> </p>
+              <p> <code>console.log(y);</code> </p>
+              <p> <code>// ReferenceError: y is not defined</code> </p>
             </section>
             <section class="main-section" id="Global_variables">
               <header><h3>Global variables</h3></header>
@@ -262,21 +267,10 @@
                 </section>
           </main>
         </div>
-
       </div>
     </div>
-
-
-
-
-
-
-
-</script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="index.js" type="text/javascript">
-
-    </script>
   </body>
 </html>
